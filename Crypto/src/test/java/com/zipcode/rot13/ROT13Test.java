@@ -1,6 +1,5 @@
 package com.zipcode.rot13;
 
-
 import org.junit.Test;
 import static org.junit.Assert.*;
 public class ROT13Test {
@@ -84,9 +83,10 @@ public class ROT13Test {
 
         // When
         String actual = cipher.crypt(cipher.crypt(Q1));
-        System.out.println(actual);
+
         // Then
         assertTrue(actual.equals(Q1));
     }
+
 
 }
